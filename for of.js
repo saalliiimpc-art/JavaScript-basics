@@ -43,13 +43,13 @@
 
 //IMPORTENT//
 
-//accsess object
+// //accsess object
 let student ={
     name:"dasda",
     age:89,
     place:"chemmd"
 }
-// // NORMAL METHOID:-
+// NORMAL METHOID:-
 
 // for(let ob of Object.entries(student)){
 //     console.log(ob); 
@@ -71,7 +71,7 @@ let student ={
 // }
 
 
-// //array allaaathe randum kooodi print cheyyippikkaaaan
-// for(let [v,k] of Object.entries(student)){
-//     console.log(v,k);  
-// }
+//array allaaathe randum kooodi print cheyyippikkaaaan
+for(let [v,k] of Object.entries(student)){
+    console.log(v,k);  
+}

@@ -1,4 +1,4 @@
-// //             slice:-
+//             slice:-
 
 
 // let fruts=["appale","stoburry","vathakka","jackfrut"];
@@ -10,10 +10,7 @@
 // //             splice();-
 
 
-// //remove:-
-// let fruits = ["Apple", "Banana", "Orange", "Mango"];
-// fruits.splice(1,1,);//remove cheyyaaan
-// console.log(fruits)//athil ninn poooyitt bakki ulladh print aaavum
+// /
 
 // // rand value remiove akkaan
 // let animal=["aa","bb","cc","dd"]; 
@@ -27,12 +24,12 @@
 //
 // animal.splice(0,0,"lk","df");
 // console.log(animal);
-
+ 
 // //replace:-
 // let animal=["aa","bb","cc","dd"]; 
-// //animal.splice(1,1,"yy");
-// //console.log(animal);
-
+// animal.splice(1,1,"yy");
+// console.log(animal);
+//
 // animal.splice(2,1,"hh");
 // console.log(animal)
 
@@ -61,7 +58,7 @@
 
 // let arr =["a","b","c"];
 // console.log(arr.join());
-// console.log(arr.join("-"));
+// console.log(arr.join(""));
 // console.log(arr.join("/"));
 // console.log(arr.join(","));
 
@@ -115,28 +112,28 @@
 // let arr =[10,20,30,40,50];
 
 // // // Remove the first element.
-// // arr.shift();
-// // console.log(arr);
+// arr.shift()
+// //console.log(arr);
 
 // // // Add 5 at the beginning.
-// // let arr2=arr.unshift(5);
+// arr.unshift(5);
 // // console.log(arr);
 
 // // // Remove the last element.
-// // arr.pop();
-// // console.log(arr);
+// arr.pop()
+// //console.log(arr);
 
 // // // Add 60 at the end.
-// // arr.push(60);
+// arr.push(60)
 // // console.log(arr);
 
 // // // Replace 30 with 35.
-// // arr.splice(2,1,35);
-// // console.log(arr);
+// arr.splice(2,1,35)
+// //console.log(arr);
 
 // // // Print the final array as a string using join("-").
-// // let arr2=arr.join("-");
-// // console.log(arr2)
+// let arr2=arr.join("-")
+// console.log(arr2)
 
 
 
@@ -151,12 +148,12 @@
 
 // // Add 25, 35
 // arra.splice(1,0,25,35);
-// // console.log(arra);
+// //console.log(arra);
 
 // // Remove 50
 // arra.splice(4,1)
-// // console.log(arra);
+// //console.log(arra);
 
 // // Add 45
-// arra.splice(3,1,45)
+// arra.splice(3,1,45);
 // console.log(arra);

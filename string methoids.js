@@ -1,22 +1,22 @@
-// let str="hello salim";
+// let str="hello world salim";
 // let str2="WORLd";
 
-//1
+// //1
 // //split():-
-// syntax: string.split(separator);
+// //syntax: string.split(separator);
 
 // console.log(str.split(" "));
 // console.log(str2.split(","))
 // console.log(str.split(""))
 
 
-//2
-// //slice():-  
-// syntax:string.slice(start, end);
+// //2
+// // //slice():-  
+// // syntax:string.slice(start, end);
 
 // console.log(str.slice(0,5));
-// console.log(str.slice(12,16));
-// console.log(str.slice(12));
+// console.log(str.slice(1,6));
+// console.log(str.slice(2));
 // //thala thirich 
 // //     ivade -1 enn parajaaaal last index agane backinn pookkkum
 // //     str orderil thannne print aaavukayolllu
@@ -27,12 +27,12 @@
 // console.log(str.slice(-11,-7));
 
 
-//3
+// // 3
 // //substring():-
-// syntax: string.substring(start, end);
+// //syntax: string.substring(start, end);
 
 // console.log(str.substring(6,11));
-// console.log(str.substring(17,23));
+// console.log(str.substring(8,23));
 // console.log(str.substring(12));
 
 
@@ -62,7 +62,7 @@
 // console.log(str2.toLowerCase())
 
 
-//  //7
+// //7
 // //charAt:-
 // //syn tax:str.charAt(index number));
 // console.log(str.charAt(0));
@@ -84,9 +84,11 @@
 
 
 // //10
+// //padStart():-
 // let gender="male";
 // console.log(gender.padStart(8,"k"));
-// console.log(str.padStart(13,"k"));
+// console.log(str.padStart(23,"k"));
+
 
 
 

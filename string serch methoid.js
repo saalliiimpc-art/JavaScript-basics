@@ -32,4 +32,4 @@
 
 // //macth:-
 // console.log(str.match("world"));//['world', index: 6, input: 'hello world']
-// console.log(str.match ("g"));//null
+// console.log(str.match (/o/g));//['o','o']

@@ -12,6 +12,7 @@
 // fruts.reverse();
 // console.log(fruts);
 // //-acsending order reverse:-
+
 // fruts.sort().reverse();
 // console.log(fruts);
 

@@ -1,4 +1,4 @@
-// //basic
+//basic
 //  // key idkkaan
 // let teachers={
 //     name:"arun",
@@ -10,7 +10,7 @@
 // }
 
 
-//value idkkaaan
+// //value idkkaaan
 
 // let teachers={
 //     name:"arun",
@@ -19,7 +19,7 @@
 // }
 // for(let i in teachers){
 //     console.log(teachers[i]);
-//}
+// }
 
 
 // let techersa={

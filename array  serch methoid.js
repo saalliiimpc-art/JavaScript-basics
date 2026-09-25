@@ -1,4 +1,4 @@
-let fruts=["mango","orange","apple","orange"];
+//let fruts=["mango","orange","apple","orange"];
 
 //               // indexOf()-
 // console.log(fruts.indexOf("orange"));//1
@@ -11,27 +11,29 @@ let fruts=["mango","orange","apple","orange"];
 
 
                  // find():-
-// let number=[10,,30,40,50,70,60];
-// let result= number.findndex(function(num){
-//     return num>20;
+//let number=[10,20,30,40,50,60,70,];
+
+// let result= number.find(function(num){
+//     return num<20;
 // });
 // console.log(result);
 
-
 // let res=number.find(function(num){
-//     return num<20;
+//     return num>50;
 // })
 // console.log(res);
+
 
 // let students = [
 //     { name: "Ali", mark: 40 },
 //     { name: "Rahul", mark: 75 },
 //     { name: "Anu", mark: 90 }
 // ];
-// let res=students.find(function(student){
-//     return student.mark>24;
+// let sea=students.find(function(std){
+//     return std.mark<50
 // });
-// console.log(res);
+// console.log(sea);
+
 
 
 // //            findIndex():-

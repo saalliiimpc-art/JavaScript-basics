@@ -16,7 +16,7 @@
 //     return num *2;
 // });
 // console.log(resl);
-// Q3
+// //Q3
 // let number=[200,300,400,500];
 // let reslt=number.map(function(num){
 //     return num-50;
@@ -57,8 +57,8 @@
 // number.forEach(function(num){
 //     console.log(num)
 // });
-// // Q2:-
-// let number =[1,2,3,4,5,6,7,8,9];
-// number.forEach(function(num){
-//     console.log(num*2)
-// });
+// Q2:-
+let number =[1,2,3,4,5,6,7,8,9];
+number.forEach(function(num){
+    console.log(num*2)
+});
