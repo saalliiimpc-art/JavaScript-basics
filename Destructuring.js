@@ -7,7 +7,7 @@
 // let arr=[12,34,56,78,89];
 // let [a,b,c,d,e]=arr
 // console.log(a)
-
+console.log(a)
 // // object:-
 // let ob={
 //     name:"salim",
