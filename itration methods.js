@@ -24,6 +24,7 @@
 // console.log(reslt);
 
 // filter():-
+
 // // Q1:-
 // let numbers = [10, 20, 30, 40];
 // let reslt=numbers.filter(function(num){
@@ -36,8 +37,23 @@
 //     return num<=300;
 // });
 // console.log(res);
+// // Q3:-
+// let names =[];
+// let players = [
+//     {name: "Ronaldo", goals: 12},
+//     {name: "Messi", goals: 18},
+//     {name: "Neymar", goals: 9},
+//     {name: "Mbappe", goals: 15}
+// ];
+// let players1 =players.filter(function(a){
+//     if(a.goals > 10){
+//         names.push(a.name)
+//     }
+// })
+// console.log(names)
 
 //reduce():-
+
 // // Q1:-
 // let number =[100,200,300,400,500,600];
 // let res=number.reduce(function(sum,num){
@@ -52,13 +68,14 @@
 // console.log(res);
 
 // forEach():-
+
 // // Q1:-
 // let number =[1,2,3,4,5,6,7,8,9];
 // number.forEach(function(num){
 //     console.log(num)
 // });
-// Q2:-
-let number =[1,2,3,4,5,6,7,8,9];
-number.forEach(function(num){
-    console.log(num*2)
-});
+// // Q2:-
+// let number =[1,2,3,4,5,6,7,8,9];
+// number.forEach(function(num){
+//     console.log(num*2)
+// });

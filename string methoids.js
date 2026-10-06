@@ -1,5 +1,5 @@
-// let str="hello world salim";
-// let str2="WORLd";
+let str="hello world salim";
+let str2="WORLd,SALI";
 
 // //1
 // //split():-

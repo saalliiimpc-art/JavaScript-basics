@@ -26,22 +26,8 @@
 // saa("Hello World");
 // saa("JavaScript is fun");
 
-// // Q3
-// function aa (){
-//     let arr=["apple", "banana", "apple", "orange", "banana", "apple"];
-//     let count=0;
-//     for(let values of arr){
-              
 
-
-
-
-
-//     return count
-// }
-// console.log(aa())
-
-// // Q4
+// // Q3:-
 // function wod(){
 //     let str="hElloWOrld"
 //     let st1=str.toUpperCase();
@@ -50,16 +36,117 @@
 // }
 // wod()
 
+// // Q4:-
+// let a = 10;
+// function outer() {
+//     let b = 20;
+//     function inner() {
+//         let c = 30;
+//         console.log(a);
+//         console.log(b);
+//         console.log(c);
+//     }
+//     inner();
+// }
+// outer();
 
-let a = 10;
-function outer() {
-    let b = 20;
-    function inner() {
-        let c = 30;
-        console.log(a);
-        console.log(b);
-        console.log(c);
-    }
-    inner();
-}
-outer();
+// // Q5:-
+// let num=5
+// let fac=1
+// for(i=1;i<=num;i++){
+//     fac=fac*i
+// }
+// console.log(fac);
+
+// let i =1;
+// while (i<=10){
+//     console.log(i*4);
+//     i++;
+// }
+
+// let i =1;
+// do{
+//     console.log(i*6);
+//     i++
+// }
+// while(i<=10);
+
+// for(i=0;i<10;i++){
+    
+    
+// }
+// for (i=10;i>=1;i--){
+//     console.log(i);
+// }
+
+// let number=[10,20,30,40,50,60,70,];
+
+// let gg=number.find(function(a){
+//     return  a>30
+// })
+// console.log(gg);
+
+
+// let student = {
+//     name: "Salim",
+//     age: 20,
+//     show: function() {
+//         console.log("hello",this.name);
+//     }
+// };
+
+// student.show();
+
+// let att=[1,2,3,4,5]
+// let va=att.reduce(function (a,b){
+//     return a-b
+// },)
+// console.log(va);
+
+
+
+
+
+
+
+
+
+// let nn =[1,2,3,4,5,6,7,8,9]
+// let gg=nn.reduce(function(a,b){
+//     return a+b
+// },1)
+// console.log(gg);
+
+
+// let student ={
+//     name:"fizzza"
+// }
+// function greet(a){
+//     console.log("hello",this.name,a)
+// }
+// greet.call(student,"welcome" )
+
+// greet.apply(student,["welcome"] )
+
+// let gg=greet.bind(student,"welcome")
+// gg()
+
+let products = [
+    { name: "Laptop", price: 50000 },
+    { name: "Phone", price: 30000 },
+    { name: "Tablet", price: 20000 },
+    { name: "Monitor", price: 15000 }
+];
+// let ans =products.reduce(function(a,b){
+//     if(a.price>b.price){
+//         return a
+//     }
+//     else{
+//         return b
+//     }
+// })
+// console.log(ans);
+
+let ans=products.filter(function(a){
+    
+})

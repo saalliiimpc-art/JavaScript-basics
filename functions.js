@@ -40,8 +40,8 @@
 // function name(a,b){
 //     return a+b;
 // };
-// // Q2:-
 // console.log(name(30,20));
+// // Q2:-
 // function totalsallary(salary,bones){
 //     return salary+bones;
 // };
